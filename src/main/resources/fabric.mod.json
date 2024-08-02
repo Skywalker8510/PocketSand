@@ -3,13 +3,13 @@
 	"id": "pocketsand",
 	"version": "${version}",
 	"name": "PocketSand",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Make Husks drop sandy bits from their pockets when you kill them to make sand a renewable resource.",
 	"authors": [
 		"Skywalker8510"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Skywalker8510/PocketSand/",
+		"sources": "https://github.com/Skywalker8510/PocketSand/"
 	},
 	"license": "MIT",
 	"icon": "assets/pocketsand/icon.png",
@@ -26,12 +26,9 @@
 		"pocketsand.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.20.6",
+		"fabricloader": ">=0.16.0",
+		"minecraft": ">=1.21.0",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

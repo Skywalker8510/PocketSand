@@ -18,7 +18,7 @@ public class ModItems {
     }
 
     public static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(PocketSand.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(PocketSand.MOD_ID, name), item);
     }
     public static void registerModItems() {
         PocketSand.LOGGER.info("Registering Mod Items for " + PocketSand.MOD_ID);

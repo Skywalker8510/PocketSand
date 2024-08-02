@@ -14,7 +14,7 @@ import net.skywalker8510.pocketsand.PocketSand;
 public class ModLootTableModifiers {
 
     private static final Identifier HUSK_LOOT_TABLE_ID =
-            Identifier.of("minecraft","entities/husk");
+            new Identifier("minecraft","entities/husk");
 
     public static void modifyLootTables() {
 
